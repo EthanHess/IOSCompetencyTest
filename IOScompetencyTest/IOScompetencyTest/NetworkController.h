@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class AFHTTPSessionManager;
+
 @interface NetworkController : NSObject
+
++ (AFHTTPSessionManager *)api; 
 
 @end
