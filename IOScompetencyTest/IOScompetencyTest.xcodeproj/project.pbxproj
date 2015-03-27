@@ -36,6 +36,7 @@
 		27CEF4AD1AC4FBD600890179 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF4981AC4FBD600890179 /* UIProgressView+AFNetworking.m */; };
 		27CEF4AE1AC4FBD600890179 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF49A1AC4FBD600890179 /* UIRefreshControl+AFNetworking.m */; };
 		27CEF4AF1AC4FBD600890179 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF49C1AC4FBD600890179 /* UIWebView+AFNetworking.m */; };
+		27CEF4E61AC5D37C00890179 /* FriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF4E51AC5D37C00890179 /* FriendDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		27CEF49A1AC4FBD600890179 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		27CEF49B1AC4FBD600890179 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		27CEF49C1AC4FBD600890179 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		27CEF4E41AC5D37C00890179 /* FriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailViewController.h; sourceTree = "<group>"; };
+		27CEF4E51AC5D37C00890179 /* FriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				279458681AC45B47003FC32B /* ViewDataSource.m */,
 				2794586A1AC45FA2003FC32B /* FriendController.h */,
 				2794586B1AC45FA2003FC32B /* FriendController.m */,
+				27CEF4E41AC5D37C00890179 /* FriendDetailViewController.h */,
+				27CEF4E51AC5D37C00890179 /* FriendDetailViewController.m */,
 				2794586D1AC45FBD003FC32B /* NetworkController.h */,
 				2794586E1AC45FBD003FC32B /* NetworkController.m */,
 				2794584B1AC45A73003FC32B /* Main.storyboard */,
@@ -363,6 +368,7 @@
 				27CEF4A01AC4FBD600890179 /* AFNetworkReachabilityManager.m in Sources */,
 				279458471AC45A72003FC32B /* AppDelegate.m in Sources */,
 				27CEF4AB1AC4FBD600890179 /* UIButton+AFNetworking.m in Sources */,
+				27CEF4E61AC5D37C00890179 /* FriendDetailViewController.m in Sources */,
 				27CEF4A21AC4FBD600890179 /* AFURLConnectionOperation.m in Sources */,
 				27CEF4A91AC4FBD600890179 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				27CEF4A71AC4FBD600890179 /* README.md in Sources */,
