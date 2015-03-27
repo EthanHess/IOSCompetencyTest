@@ -13,7 +13,7 @@
 @property (nonatomic, strong) NSArray *resultFriends;
 @property (nonatomic, strong) NSDictionary *friendInfo;
 
-+ (FriendsController *)sharedInstance;
++ (FriendController *)sharedInstance;
 
 - (void)retrieveFriendsWithCompletion:(void (^)(NSArray *))completion;
 

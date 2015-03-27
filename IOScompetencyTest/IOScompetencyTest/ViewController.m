@@ -35,9 +35,12 @@
     [[FriendController sharedInstance] retrieveFriendsWithCompletion:^(NSArray *friends) {
         [self.tableView reloadData];
     
+    }];
+        
+    
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     
     
