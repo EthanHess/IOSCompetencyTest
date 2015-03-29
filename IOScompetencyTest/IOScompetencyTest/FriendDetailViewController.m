@@ -35,6 +35,19 @@
     self.bioLabel = [[UILabel alloc] init];
     self.bioLabel.numberOfLines = 0;
     
+    [[FriendController sharedInstance] retrieveFriendDetailWithCompletion:^(NSDictionary *dictionary) {
+        self.nameLabel.text = [NSString stringWithFormat:@"%@ %@", dictionary[@"first_name"], dictionary[@"last_name"]];
+        
+        self.phoneLabel.text = dictionary[@"phone"];
+        
+        self.addressLabel.text = [NSString stringWithFormat:@"%@, %@", dictionary[@"address"], dictionary[@"city"]];
+        
+        self.bioLabel.text = dictionary[@"bio"];
+                               
+                               
+                            
+        }];
+    
     
 }
 

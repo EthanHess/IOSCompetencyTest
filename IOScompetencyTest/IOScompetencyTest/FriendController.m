@@ -37,4 +37,20 @@
     
 }
 
+- (void)retrieveFriendDetailWithCompletion:(void (^)(NSDictionary *))completion {
+    
+    NSString *path = @"friends/id";
+    
+    [[NetworkController api] GET:path parameters:nil
+                         success:^(NSURLSessionDataTask *task, id responseObject) {
+                             NSDictionary *dictionary = responseObject;
+                             completion(dictionary);
+                         } failure:^(NSURLSessionDataTask *task, NSError *error) {
+                             NSLog(@"%@", error);
+                             completion(nil);
+                         }];
+     
+    
+}
+
 @end

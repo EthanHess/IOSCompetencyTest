@@ -17,5 +17,7 @@
 
 - (void)retrieveFriendsWithCompletion:(void (^)(NSArray *))completion;
 
+- (void)retrieveFriendDetailWithCompletion:(void (^)(NSDictionary *))completion;
+
 
 @end

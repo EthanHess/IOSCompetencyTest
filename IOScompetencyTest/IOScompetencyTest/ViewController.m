@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ViewDataSource.h"
 #import "FriendController.h"
+#import "FriendDetailViewController.h"
 
 @interface ViewController () <UITableViewDelegate>
 
@@ -42,7 +43,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    
+    FriendDetailViewController *detailViewController = [FriendDetailViewController new];
+    [self.navigationController pushViewController:detailViewController animated:YES];
     
 }
 
